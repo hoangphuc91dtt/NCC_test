@@ -149,3 +149,29 @@ body {
 .menu__item.active a {
   color: #fff;
 }
+
+/* reponsive */
+@media screen and (max-width: 1024px) {
+  .homepage__main {
+    padding: 38px 64px;
+  }
+  .homepage__list-content {
+    flex-direction: column;
+  }
+  .homepage__content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .menu {
+    height: 1192px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homepage__main {
+    padding: 16px 24px;
+  }
+  .homepage {
+    margin: 0 24px;
+  }
+}
