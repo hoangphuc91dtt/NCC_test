@@ -114,3 +114,34 @@
 .menu__item.active a {
   color: #fff;
 }
+
+/* menu */
+.menu {
+  width: 150px;
+  height: 935px;
+  flex-shrink: 0;
+  background-color: #191718;
+}
+.menu__item {
+  padding: 14px 16px;
+  border-bottom: 1px solid gray;
+}
+.menu__item > a {
+  color: #5c5c5c;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #5c5c5c;
+}
+.menu__item:hover > a {
+  color: #fff;
+}
+
+.menu__item.active a {
+  color: #fff;
+}
